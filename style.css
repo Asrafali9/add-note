@@ -1,0 +1,28 @@
+
+
+/* body::-webkit-scrollbar {
+  display: none;
+} */
+
+body{
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+  overflow-x: hidden;
+}
+
+#floatingTextarea{
+    overflow: hidden;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.result{
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+}
+
+#yourNotes{
+  text-align: center;
+}
